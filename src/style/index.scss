@@ -1,0 +1,27 @@
+@import 'normalize.css';
+
+html,
+body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+body {
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: #eeeeee;
+}
+#app {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.common {
+    font-size: 36px;
+    line-height: 1;
+}
